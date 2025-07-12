@@ -38,7 +38,6 @@ else
     echo -e "${GREEN}✔ COMP_WORDBREAKS already handled in .bashrc.${NC}"
 fi
 
-echo -e "${GREEN}[5/5] Reloading .bashrc...${NC}"
-source ~/.bashrc && \
-echo -e "${GREEN}✔ Installation complete. You can now try: aws s3 cp s3://<TAB>${NC}" || \
-echo -e "${RED}✘ Reload failed. Please restart your terminal manually.${NC}"
+echo -e "${GREEN}[5/5] Done.${NC}"
+echo -e "${GREEN}✔ Installation complete. Please open a new terminal or run the following command manually:${NC}"
+echo -e "${GREEN}  source ~/.bashrc${NC}"
