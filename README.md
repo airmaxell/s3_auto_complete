@@ -37,13 +37,13 @@ Before using this tool, make sure the folowing prerequisites are met:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/airmaxell/aws-s3-autocomplete.git
+git clone git@github.com:airmaxell/s3_auto_complete.git
 ```
 
 ### 2. Run installation
 
 ```bash
-cd aws-s3-autocomplete
+cd s3_auto_complete
 ./install.sh
 ```
 
